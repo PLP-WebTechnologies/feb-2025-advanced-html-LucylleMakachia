@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML5 Example with Images, Lists, Tables, and Forms">
+    <title>HTML5 Example</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the HTML5 Demo</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Tasks for the Day</h2>
+        <ol type="I">
+            <li>Morning Exercise</li>
+            <li>Team Meeting</li>
+            <li>Submit Project Report</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels-->
+    <section>
+        <h2>Beautiful Scenery</h2>
+        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="A beautiful landscape from Pexels" width="600">
+    </section>
+
+    <!-- Table with Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Wekesa</td>
+                    <td>123 Kenyatta St</td>
+                    <td>+25474567893</td>
+                    <td>john.wekesa@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Kimani</td>
+                    <td>456 Kijabe St</td>
+                    <td>+2547654321</td>
+                    <td>jane.kimani@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Bett</td>
+                    <td>789 Ruai St</td>
+                    <td>+25473456789</td>
+                    <td>emily.bett@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Otieno</td>
+                    <td>321 Odinga St</td>
+                    <td>+25472345678</td>
+                    <td>michael.otieno@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>Sarah Mohammed</td>
+                    <td>6 Moi Avenue</td>
+                    <td>+25472345678</td>
+                    <td>sarah.mohammed@hotmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <label for="preferences">Preferences:</label><br>
+            <input type="checkbox" id="news" name="preferences" value="news">
+            <label for="news">Receive Newsletters</label><br>
+            <input type="checkbox" id="updates" name="preferences" value="updates">
+            <label for="updates">Receive Updates</label><br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="ken">Kenya</option>
+                <option value="ug">Uganda</option>
+                <option value="zambia">Zambia</option>
+                <option value="somalia">Somalia</option>
+            </select><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 HTML5 Demo</p>
+    </footer>
+</body>
+</html>
